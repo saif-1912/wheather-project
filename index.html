@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="error">
+            <p>*Invalid City Name</p>
+        </div>
+        <div class="main">
+            <input placeholder="Enter Your City Name" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weather">
+            <img src="https://uploads.codesandbox.io/uploads/user/14d8abd7-097e-431c-98e1-2e67941a6791/J_iW-rain.png"
+                class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img
+                        src="https://uploads.codesandbox.io/uploads/user/14d8abd7-097e-431c-98e1-2e67941a6791/exER-humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img
+                        src="https://uploads.codesandbox.io/uploads/user/14d8abd7-097e-431c-98e1-2e67941a6791/sz8V-wind.png">
+                    <div>
+                        <p class="wind">15 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="weather.js"></script>
